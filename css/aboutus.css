@@ -1,0 +1,261 @@
+*{
+    margin: 0%;
+}
+body{
+    width: 100%;
+    background-color: #f1faee ;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin-top: 0;
+    background-color: #101010;
+    flex-wrap: wrap;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 20px 40px;
+    color: aliceblue;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .grow:hover {
+    transform: scale(1.1);
+  } 
+
+
+/* .navs {
+    opacity: 0.9;
+    background: #457b9db4;
+   top: 0%;
+   width: 100%;
+   z-index: 9999;
+    padding: 1em;
+   text-align: center;
+   text-size-adjust: 80%;
+   word-spacing: 30px;
+
+    
+} */
+
+
+/* .nav__button{
+    position: relative;
+    margin: auto;
+    align-self: center;
+    text-align: center;
+    opacity: -0.5;
+
+    padding: 10px;
+    color: #1d3557;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: center;
+    border-spacing: 15px;
+    font-size: 20px;
+
+} */
+
+/* .nav__button:link{
+    text-decoration: none;
+}
+
+.nav__button:hover{
+
+    background-color: rgba(255, 255, 255, 0.212);
+    border-radius: 15px 50px 30px;
+}
+
+@media  (max-width:600px) {
+    .nav__button{
+        background-color: red;
+        display: none;
+    }
+    .navs{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around ;
+    }
+    .nav__button--m{
+        display: flex;
+        visibility: visible;
+    }
+} */
+
+.about-us{
+    height: 100vh;
+    /* width: 100%; */
+    text-align: center;
+    /* margin: 5em; */
+    background-color: #f1faee;
+}
+
+.about-us__heading{
+    padding-top: 10%;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    text-decoration: underline;
+    color: #1d3557;
+}
+
+.about-us__content{
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20px;
+    color: #457b9d;
+}
+
+@media (max-width:600px){
+    .about-us{
+        width: 100%;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+  text-decoration: none;
+}
+footer{
+  width: 100%;
+  position: bottom;
+  bottom: 0;
+  left: 0;
+  background: #111;
+}
+footer .content{
+  max-width: 1350px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .content p,a{
+  color: #fff;
+}
+footer .content .box{
+  width: 33%;
+  transition: all 0.4s ease;
+}
+footer .content .topic{
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 16px;
+
+}
+footer .content p{
+  text-align: justify;
+}
+footer .content .lower .topic{
+  margin: 24px 0 5px 0;
+}
+footer .content .lower i{
+  padding-right: 16px;
+}
+footer .content .middle{
+  padding-left: 80px;
+}
+footer .content .middle a{
+  line-height: 32px;
+}
+footer .content .right input[type="text"]{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  color: #d9d9d9;
+  background: #000;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 17px;
+  border: 2px solid #222222;
+}
+footer .content .right input[type="submit"]{
+  height: 42px;
+  width: 100%;
+  font-size: 18px;
+  color: #d9d9d9;
+  background: #035b81;
+  outline: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  margin-top: 12px;
+  border: 2px solid #035b81;
+  transition: all 0.3s ease-in-out;
+}
+.content .right input[type="submit"]:hover{
+  background: none;
+  color:  #035b81;
+}
+footer .content .media-icons a{
+  font-size: 16px;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  text-align: center;
+  line-height: 43px;
+  border-radius: 5px;
+  border: 2px solid #222222;
+  margin: 30px 5px 0 0;
+  transition: all 0.3s ease;
+}
+.content .media-icons a:hover{
+  border-color: #035b81;
+}
+footer .bottom{
+  width: 100%;
+  text-align: center;
+  color: #fdfdff;
+  padding: 0 40px 5px 0;
+}
+footer .bottom a{
+  color: #035b81;
+}
+footer a{
+  transition: all 0.3s ease;
+}
+footer a:hover{
+  color: #035b81;
+}
+@media (max-width:1100px) {
+  footer .content .middle{
+    padding-left: 50px;
+  }
+}
+@media (max-width:950px){
+  footer .content .box{
+    width: 50%;
+  }
+  .content .right{
+    margin-top: 40px;
+  }
+}
+@media (max-width:560px){
+  footer{
+    position: relative;
+  }
+  footer .content .box{
+    width: 100%;
+    margin-top: 30px;
+  }
+  footer .content .middle{
+    padding-left: 0;
+  }
+}
+.blueiconcolor {
+	color : blue;
+}
